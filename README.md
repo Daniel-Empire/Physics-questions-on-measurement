@@ -53,27 +53,46 @@
 </form>
 <div class="result" id="result"></div><script>
 const questions = [
-  {
-    q: "Which of the following is a base quantity?",
-    options: ["Speed", "Length", "Area", "Volume"],
-    answer: 1
-  },
-  {
-    q: "The SI unit of time is:",
-    options: ["Minute", "Second", "Hour", "Day"],
-    answer: 1
-  },
-  // ... (you would add up to 40 such questions)
+  { q: "Which of the following is a base quantity?", options: ["Speed", "Length", "Area", "Volume"], answer: 1 },
+  { q: "The SI unit of time is:", options: ["Minute", "Second", "Hour", "Day"], answer: 1 },
+  { q: "Which instrument is used to measure mass?", options: ["Thermometer", "Stopwatch", "Spring balance", "Voltmeter"], answer: 2 },
+  { q: "Which unit is used to measure electric current?", options: ["Ohm", "Volt", "Ampere", "Coulomb"], answer: 2 },
+  { q: "Which prefix represents one billionth (10^-9)?", options: ["Micro", "Nano", "Milli", "Pico"], answer: 1 },
+  { q: "The basic SI unit of length is:", options: ["Inch", "Metre", "Centimetre", "Foot"], answer: 1 },
+  { q: "Which of the following is not a base quantity?", options: ["Length", "Mass", "Speed", "Time"], answer: 2 },
+  { q: "Instrument used to measure temperature is:", options: ["Thermometer", "Barometer", "Ammeter", "Hygrometer"], answer: 0 },
+  { q: "Derived quantity among these is:", options: ["Mass", "Area", "Time", "Length"], answer: 1 },
+  { q: "Which physical quantity is measured in kilograms?", options: ["Mass", "Time", "Length", "Speed"], answer: 0 },
+  { q: "Which of these quantities is scalar?", options: ["Velocity", "Force", "Acceleration", "Speed"], answer: 3 },
+  { q: "Volume is measured in:", options: ["m", "m^2", "m^3", "kg"], answer: 2 },
+  { q: "What does a stopwatch measure?", options: ["Mass", "Temperature", "Time interval", "Area"], answer: 2 },
+  { q: "Micrometer screw gauge measures:", options: ["Length", "Mass", "Current", "Volume"], answer: 0 },
+  { q: "Which of the following is not a unit of length?", options: ["Meter", "Kilogram", "Centimeter", "Millimeter"], answer: 1 },
+  { q: "1 kilometer is equal to how many meters?", options: ["10", "100", "1000", "10000"], answer: 2 },
+  { q: "Which of these is used to measure small thickness?", options: ["Ruler", "Thermometer", "Vernier caliper", "Barometer"], answer: 2 },
+  { q: "Which unit is used for measuring frequency?", options: ["Hz", "s", "m", "kg"], answer: 0 },
+  { q: "Which of the following is not an SI base unit?", options: ["Candela", "Kelvin", "Newton", "Mole"], answer: 2 },
+  { q: "The prefix 'kilo' stands for:", options: ["10", "100", "1000", "10000"], answer: 2 },
+  { q: "Force is measured in:", options: ["Joule", "Newton", "Watt", "Ampere"], answer: 1 },
+  { q: "Which instrument measures atmospheric pressure?", options: ["Barometer", "Thermometer", "Hygrometer", "Anemometer"], answer: 0 },
+  { q: "A standard kilogram is defined by:", options: ["A platinum-iridium cylinder", "Mass of water", "A stone", "Mass of gold"], answer: 0 },
+  { q: "The unit 'joule' is used to measure:", options: ["Force", "Work", "Power", "Speed"], answer: 1 },
+  { q: "Which instrument is used to measure electric current?", options: ["Voltmeter", "Ammeter", "Wattmeter", "Galvanometer"], answer: 1 },
+  { q: "What is the SI unit of energy?", options: ["Joule", "Watt", "Volt", "Ohm"], answer: 0 },
+  { q: "Power is measured in:", options: ["Joule", "Watt", "Volt", "Ampere"], answer: 1 },
+  { q: "Which of these instruments measures voltage?", options: ["Voltmeter", "Ammeter", "Galvanometer", "Thermometer"], answer: 0 },
+  { q: "Which of the following is a vector quantity?", options: ["Speed", "Temperature", "Force", "Distance"], answer: 2 },
+  { q: "Which of the following is a scalar quantity?", options: ["Displacement", "Acceleration", "Velocity", "Time"], answer: 3 },
+  { q: "Which unit is equivalent to kg·m/s²?", options: ["Joule", "Watt", "Newton", "Pascal"], answer: 2 },
+  { q: "Work is equal to:", options: ["Force × Time", "Mass × Distance", "Force × Distance", "Distance / Time"], answer: 2 },
+  { q: "The SI unit of pressure is:", options: ["Bar", "Pascal", "Newton", "Joule"], answer: 1 },
+  { q: "1 liter is equal to:", options: ["1000 cm³", "100 cm³", "10 cm³", "1 cm³"], answer: 0 },
+  { q: "Which of the following measures humidity?", options: ["Barometer", "Thermometer", "Hygrometer", "Altimeter"], answer: 2 },
+  { q: "Speed is calculated by:", options: ["Distance × Time", "Distance / Time", "Time / Distance", "Force / Mass"], answer: 1 },
+  { q: "Which unit is used to measure density?", options: ["kg/m²", "kg/m³", "kg", "m³"], answer: 1 },
+  { q: "Which of the following measures light intensity?", options: ["Luxmeter", "Thermometer", "Hygrometer", "Barometer"], answer: 0 },
+  { q: "Which instrument is used to measure altitude?", options: ["Barometer", "Altimeter", "Thermometer", "Speedometer"], answer: 1 },
 ];
-
-// Auto-generate dummy questions to make 40
-while (questions.length < 40) {
-  questions.push({
-    q: `Sample question ${questions.length + 1}?`,
-    options: ["Option A", "Option B", "Option C", "Option D"],
-    answer: 2
-  });
-}
 
 const form = document.getElementById("quizForm");
 const resultDiv = document.getElementById("result");
@@ -98,7 +117,6 @@ form.addEventListener("submit", function(e) {
   resultDiv.textContent = `You scored ${score} out of ${questions.length}`;
 });
 
-// Timer
 let timeLeft = 30 * 60;
 const timerDisplay = document.getElementById("timer");
 const countdown = setInterval(() => {
