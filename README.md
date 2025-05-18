@@ -36,12 +36,7 @@
     const questions = [
       // Insert the 100 questions here as JS objects:
       // e.g. { q: "Question?", options: ["A", "B", "C", "D", "E"], answer: 1 },
-      // Paste your generated question code below this line.
-      {
-  q: "Which of the following is a list of vectors?",
-  options: ["Force, mass and density", "Mass, volume and density", "Displacement, force and momentum", "Displacement, power and density", "Displacement, work and pressure"],
-  answer: 2
-},
+      // Paste your generated question code below this line
 {
   q: "Which of the following is a fundamental unit?",
   options: ["Newton", "Watt", "Coulomb", "Second", "Ohm"],
