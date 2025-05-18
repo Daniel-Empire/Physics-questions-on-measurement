@@ -37,18 +37,7 @@
       // Insert the 100 questions here as JS objects:
       // e.g. { q: "Question?", options: ["A", "B", "C", "D", "E"], answer: 1 },
       // Paste your generated question code below this line.
-
-      { q: "The reading of a micrometer screw gauge is 5.50mm. If the actual diameter is 5.46mm, the percentage error is", options: ["0.73%", "0.36%", "0.80%", "0.66%", "0.44%"], answer: 0 },
-      { q: "The correct unit of moment of a force is", options: ["Nm⁻¹", "Nm", "Nm²", "Nm⁻²", "Nm³"], answer: 1 },
-      { q: "Which of the following are scalar quantities?", options: ["I, II and III", "I, III and IV", "I, II, IV and V", "I, II and IV", "I, II and V"], answer: 4 },
-      { q: "Which of the following is NOT a scalar?", options: ["Electrical charge", "Electric potential", "Time", "Kinetic energy", "Impulse"], answer: 4 }, 
-      { q: "The reading of a micrometer screw gauge is 5.50mm. If the actual diameter is 5.46mm, the percentage error is", options: ["0.73%", "0.36%", "0.80%", "0.66%", "0.44%"], answer: 0 },
-      { q: "The correct unit of moment of a force is", options: ["Nm⁻¹", "Nm", "Nm²", "Nm⁻²", "Nm³"], answer: 1 },
-      { q: "Which of the following are scalar quantities?", options: ["I, II and III", "I, III and IV", "I, II, IV and V", "I, II and IV", "I, II and V"], answer: 4 },
-      { q: "Which of the following is NOT a scalar?", options: ["Electrical charge", "Electric potential", "Time", "Kinetic energy", "Impulse"], answer: 4 },
-      // Continue pasting up to 100...
-    ];
-{
+      {
   q: "Which of the following is a list of vectors?",
   options: ["Force, mass and density", "Mass, volume and density", "Displacement, force and momentum", "Displacement, power and density", "Displacement, work and pressure"],
   answer: 2
@@ -128,6 +117,18 @@
   options: ["Force", "Pressure", "Moment of force", "Energy", "Power"],
   answer: 2
 }
+
+      { q: "The reading of a micrometer screw gauge is 5.50mm. If the actual diameter is 5.46mm, the percentage error is", options: ["0.73%", "0.36%", "0.80%", "0.66%", "0.44%"], answer: 0 },
+      { q: "The correct unit of moment of a force is", options: ["Nm⁻¹", "Nm", "Nm²", "Nm⁻²", "Nm³"], answer: 1 },
+      { q: "Which of the following are scalar quantities?", options: ["I, II and III", "I, III and IV", "I, II, IV and V", "I, II and IV", "I, II and V"], answer: 4 },
+      { q: "Which of the following is NOT a scalar?", options: ["Electrical charge", "Electric potential", "Time", "Kinetic energy", "Impulse"], answer: 4 }, 
+      { q: "The reading of a micrometer screw gauge is 5.50mm. If the actual diameter is 5.46mm, the percentage error is", options: ["0.73%", "0.36%", "0.80%", "0.66%", "0.44%"], answer: 0 },
+      { q: "The correct unit of moment of a force is", options: ["Nm⁻¹", "Nm", "Nm²", "Nm⁻²", "Nm³"], answer: 1 },
+      { q: "Which of the following are scalar quantities?", options: ["I, II and III", "I, III and IV", "I, II, IV and V", "I, II and IV", "I, II and V"], answer: 4 },
+      { q: "Which of the following is NOT a scalar?", options: ["Electrical charge", "Electric potential", "Time", "Kinetic energy", "Impulse"], answer: 4 },
+      // Continue pasting up to 100...
+    ];
+    
       // Continue pasting up to 100...
     ];
 
