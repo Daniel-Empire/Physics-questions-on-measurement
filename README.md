@@ -41,7 +41,93 @@
       { q: "The reading of a micrometer screw gauge is 5.50mm. If the actual diameter is 5.46mm, the percentage error is", options: ["0.73%", "0.36%", "0.80%", "0.66%", "0.44%"], answer: 0 },
       { q: "The correct unit of moment of a force is", options: ["Nm⁻¹", "Nm", "Nm²", "Nm⁻²", "Nm³"], answer: 1 },
       { q: "Which of the following are scalar quantities?", options: ["I, II and III", "I, III and IV", "I, II, IV and V", "I, II and IV", "I, II and V"], answer: 4 },
+      { q: "Which of the following is NOT a scalar?", options: ["Electrical charge", "Electric potential", "Time", "Kinetic energy", "Impulse"], answer: 4 }, 
+      { q: "The reading of a micrometer screw gauge is 5.50mm. If the actual diameter is 5.46mm, the percentage error is", options: ["0.73%", "0.36%", "0.80%", "0.66%", "0.44%"], answer: 0 },
+      { q: "The correct unit of moment of a force is", options: ["Nm⁻¹", "Nm", "Nm²", "Nm⁻²", "Nm³"], answer: 1 },
+      { q: "Which of the following are scalar quantities?", options: ["I, II and III", "I, III and IV", "I, II, IV and V", "I, II and IV", "I, II and V"], answer: 4 },
       { q: "Which of the following is NOT a scalar?", options: ["Electrical charge", "Electric potential", "Time", "Kinetic energy", "Impulse"], answer: 4 },
+      // Continue pasting up to 100...
+    ];
+{
+  q: "Which of the following is a list of vectors?",
+  options: ["Force, mass and density", "Mass, volume and density", "Displacement, force and momentum", "Displacement, power and density", "Displacement, work and pressure"],
+  answer: 2
+},
+{
+  q: "Which of the following is a fundamental unit?",
+  options: ["Newton", "Watt", "Coulomb", "Second", "Ohm"],
+  answer: 3
+},
+{
+  q: "Which of the following quantities has the same unit as the moment of a force?",
+  options: ["Energy", "Power", "Torque", "Acceleration", "Force"],
+  answer: 2
+},
+{
+  q: "Which of the following is NOT a derived unit?",
+  options: ["Ohm", "Joule", "Kg", "Watt", "Pascal"],
+  answer: 2
+},
+{
+  q: "Which of the following pairs gives a quantity and its correct unit?",
+  options: ["Weight and Kg", "Force and Nm", "Moment and Nm⁻¹", "Energy and Js⁻¹", "Pressure and Nm⁻²"],
+  answer: 4
+},
+{
+  q: "The instrument best suitable for measuring the diameter of a thin wire is",
+  options: ["Metre rule", "Measuring cylinder", "Pair of dividers", "Micrometer screw gauge", "Pair of vernier calipers"],
+  answer: 3
+},
+{
+  q: "Which of the following quantities consists entirely of vector quantities?",
+  options: ["Velocity, magnetic flux and reaction", "Tension, distance, torque and momentum", "Torque, acceleration and power", "Work, pressure and moment", "Impulse and power"],
+  answer: 0
+},
+{
+  q: "The pair of physical quantities consisting of vectors only is",
+  options: ["Impulse and reaction", "Magnetic flux and power", "Displacement and torque", "Velocity and power", "Work and energy"],
+  answer: 2
+},
+{
+  q: "The correct unit of energy density is",
+  options: ["kgm⁻¹s⁻¹", "kgms⁻²", "kgm⁻¹s⁻²", "Nm⁻³", "Nm⁻²"],
+  answer: 3
+},
+{
+  q: "Which of the following has the same unit as force?",
+  options: ["ML²T⁻²", "ML⁻¹T⁻²", "MLT⁻²", "ML⁻²T⁻²", "M⁻¹L⁻¹T⁻²"],
+  answer: 2
+},
+{
+  q: "Which of the following is NOT the correct SI unit of the quantity in bracket?",
+  options: ["Power (Watt)", "Potential difference (volt)", "Work (joule)", "Force (dyne)", "Time (second)"],
+  answer: 3
+},
+{
+  q: "The derived unit for momentum is",
+  options: ["Ns⁻¹", "Nm⁻¹", "Ns", "kgms⁻¹", "kgms²"],
+  answer: 3
+},
+{
+  q: "Which of the following is NOT a vector quantity?",
+  options: ["Weight", "Impulse", "Velocity", "Displacement", "Speed"],
+  answer: 4
+},
+{
+  q: "Which of the following is NOT a derived quantity?",
+  options: ["Pressure", "Volume", "Momentum", "Acceleration", "Weight"],
+  answer: 1
+},
+{
+  q: "Which of these is best suited for measuring the internal diameter of a test tube?",
+  options: ["Metre rule", "Tape rule", "Vernier calipers", "Micrometer screw gauge", "Thermometer"],
+  answer: 2
+},
+{
+  q: "Which physical quantity is measured in Nm (Newton metre)?",
+  options: ["Force", "Pressure", "Moment of force", "Energy", "Power"],
+  answer: 2
+}
       // Continue pasting up to 100...
     ];
 
